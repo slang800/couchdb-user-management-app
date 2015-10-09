@@ -9,8 +9,8 @@ CouchDB User Management App
 git clone git@github.com:gr2m/couchdb-user-management-app.git
 cd couchdb-user-management-app
 npm install
-bower install
-grunt serve
+node_modules/.bin/bower install
+node_modules/.bin/grunt serve
 ```
 
 ## Required CouchDB Settings
@@ -38,4 +38,3 @@ or it must be set to `*` (allows all origins).
     <td>*</td>
   </tr>
 </table>
-

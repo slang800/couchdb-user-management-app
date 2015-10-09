@@ -1,12 +1,14 @@
 {
   "name": "couchdb-user-management-app",
-  "version": "1.1.0",
   "description": "Web app to manage CouchDB users and database security settings",
-  "homepage": "http://gr2m.github.io/couchdb-user-management-app",
+  "version": "1.1.0",
+  "dependencies": {},
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
+    "bower": "^1.5.3",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^1.0.0",
+    "grunt-cli": "^0.1.13",
     "grunt-concurrent": "^0.5.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.5.0",
@@ -33,5 +35,6 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "homepage": "http://gr2m.github.io/couchdb-user-management-app"
 }
